@@ -1,0 +1,72 @@
+-- This file has been generated from package.yaml by hpack version 0.20.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 437eaf7c71971a5142462b853282285a748bd04c6c6212562134fbfb37a233f5
+
+name:           advent-of-code
+version:        0.1.0.0
+synopsis:       Short description of your package
+description:    Please see the README on Github at <https://github.com/githubuser/my-project#readme>
+homepage:       https://github.com/githubuser/my-project#readme
+bug-reports:    https://github.com/githubuser/my-project/issues
+author:         Marek Gargas, Wojciech Lewicki
+maintainer:     example@example.com
+copyright:      2017 Marek Gargas and Wojciech Lewicki
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+
+extra-source-files:
+    ChangeLog.md
+    README.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/my-project
+
+library
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , split
+  exposed-modules:
+      Day1
+      Day11
+      Day15
+      Day2
+      Day4
+      Day5
+  other-modules:
+      Paths_advent_of_code
+  default-language: Haskell2010
+
+executable advent-of-code-exe
+  main-is: Main.hs
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      advent-of-code
+    , base >=4.7 && <5
+    , split
+  other-modules:
+      Paths_advent_of_code
+  default-language: Haskell2010
+
+test-suite advent-of-code-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      HUnit
+    , advent-of-code
+    , base >=4.7 && <5
+    , split
+  other-modules:
+      Paths_advent_of_code
+  default-language: Haskell2010
