@@ -16,7 +16,7 @@ For instance:
 
 `stack exec advent-of-code-exe Day1b input\Day1.txt`
 
-will run the second part of [Day 1 puzzle](https://adventofcode.com/2017/day/1) with _Day1.tzt_ as an input.
+will run the second part of [Day 1 puzzle](https://adventofcode.com/2017/day/1) with _Day1.txt_ as an input.
 
 ## Authors:
 - [Marek Gargas](https://github.com/mgargas)
