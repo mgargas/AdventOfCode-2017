@@ -1,15 +1,23 @@
 # advent-of-code
-In this project we solved 6 algorithmic puzzles from website adventofcode.com. Each puzzle has two parts. We called them "a" and "b".
-Here you can find each puzzle's content:
-Day1 - https://adventofcode.com/2017/day/1
-Day2 - https://adventofcode.com/2017/day/2
-Day4 - https://adventofcode.com/2017/day/4
-Day5 - https://adventofcode.com/2017/day/5
-Day11 - https://adventofcode.com/2017/day/11
-Day15 - https://adventofcode.com/2017/day/15
-To run this program you have to pass two arguments: puzzle's number and input data. For example:
-stack exec advent-of-code-exe Day1b input\Day1.txt - it will run second part of Day1 puzzle with Day1.tzt as input
+In this project we solved 6 algorithmic puzzles from [adventofcode.com](www.adventofcode.com). Each puzzle has two parts. We called them _a_ and _b_.
+Please find below each puzzle's content:
 
-Authors:
-Marek Gargas
-Wojciech Lewicki
+- [Day 1](https://adventofcode.com/2017/day/1)
+- [Day 2](https://adventofcode.com/2017/day/2)
+- [Day 4](https://adventofcode.com/2017/day/4)
+- [Day 5](https://adventofcode.com/2017/day/5)
+- [Day 11](https://adventofcode.com/2017/day/11)
+- [Day 15](https://adventofcode.com/2017/day/15)
+
+## Running the program
+To run the program you need to pass two arguments: puzzle's number and input data.
+
+For instance:
+
+`stack exec advent-of-code-exe Day1b input\Day1.txt`
+
+will run the second part of [Day 1 puzzle](https://adventofcode.com/2017/day/1) with _Day1.tzt_ as an input.
+
+## Authors:
+- [Marek Gargas](https://github.com/mgargas)
+- Wojciech Lewicki
