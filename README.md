@@ -20,4 +20,4 @@ will run the second part of [Day 1 puzzle](https://adventofcode.com/2017/day/1) 
 
 ## Authors:
 - [Marek Gargas](https://github.com/mgargas)
-- [Wojciech Lewicki] (https://github.com/WoLewicki)
+- [Wojciech Lewicki](https://github.com/WoLewicki)
